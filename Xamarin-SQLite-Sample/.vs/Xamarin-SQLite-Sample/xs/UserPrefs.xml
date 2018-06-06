@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{F01C8F40-23BC-40F9-9598-419F4D304BF0}|Default">
+  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Xamarin-SQLite-Sample.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.58093742-4157-462F-94CF-87D55BC6E684" FirstBuild="True">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.Xamarin-SQLite-Sample.iOS>
+  <MonoDevelop.Ide.ItemProperties.Xamarin-SQLite-Sample.Droid FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.Xamarin-SQLite-Sample FirstBuild="True" />
+  <MultiItemStartupConfigurations />
+</Properties>
