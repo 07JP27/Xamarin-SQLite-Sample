@@ -1,4 +1,22 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:XamarinSQLiteSample" x:Class="XamarinSQLiteSample.Xamarin_SQLite_SamplePage">
-    <Label Text="Welcome to Xamarin Forms!" VerticalOptions="Center" HorizontalOptions="Center" />
+    <StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Entry x:Name="entry" HorizontalOptions="FillAndExpand" />
+            <Button Text="Add" Clicked="AddClicked" /> 
+            <Button Text="Drop" Clicked="DropClicked" /> 
+        </StackLayout>
+        <ListView x:Name="list" ItemTapped="ItemTapped">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout>
+                            <Label Text="{Binding Text}" FontSize="15" TextColor="Gray" />
+                            <Label Text="{Binding CreatedAt}" FontSize="10" TextColor="Gray" />
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
 </ContentPage>

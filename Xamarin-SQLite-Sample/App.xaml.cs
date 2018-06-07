@@ -8,7 +8,7 @@ namespace XamarinSQLiteSample
         {
             InitializeComponent();
 
-            MainPage = new Xamarin_SQLite_SamplePage();
+            MainPage = new NavigationPage(new Xamarin_SQLite_SamplePage());
         }
 
         protected override void OnStart()
